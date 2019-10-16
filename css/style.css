@@ -89,6 +89,115 @@ border-bottom: 1px solid #a1a1; opacity:0.7}
 .profil-listol ol li ul { list-style:disc; padding-left:15px;}
 .profil-listol ol li ul li { list-style:disc; padding-left:0; margin:5px 0px; color:#888888; font-family: "Roboto", sans-serif; line-height:20px;}
 
+.blog_details ol { list-style:decimal; color: #888888;}
+.blog_details ul { list-style-type:circle; color: #888888;}
+.blog_details ol li { position: relative;
+    padding-left: 0px;
+    line-height: 1.82em !important;}
+.blog_details ul li { position: relative;
+    padding-left: 0px; margin-left:30px;
+    line-height: 1.82em !important;}
+.blog_details > table { }
+.blog_details > table > thead { line-height:25px; border-bottom:1px solid #eee; background-color:#fbf9ff;}
+.blog_details > table > thead > tr > th { padding:8px 10px;}
+.blog_details > table > tbody { font-size:13px !important;}
+.blog_details > table > tbody > tr { border-bottom:1px solid #eee;}
+.blog_details > table > tbody > tr > td { padding:8px 10px;}
+.blog_details  img { width:100% !important; height:auto;}	
+.blog_details h1 { font-size:25px;}
+.blog_details h2 { font-size:22px;}
+.blog_details h3 { font-size:20px;}
+
+.blog_details blockquote {
+  display: block; border-width: 1px 0;border-style: solid;border-color: #eee;padding: 1.5em 0 0.5em;
+  margin: 1.5em 0;position: relative;
+  }
+.blog_details blockquote:before {
+  content: '\201C';position: absolute;top: 0em;left: 50%;transform: translate(-50%, -50%);
+  background: #fff;width: 3rem;height: 2rem;font: 6em/1.08em 'PT Sans', sans-serif;
+  color: #666;text-align: center;
+}
+.blog_details blockquote:after {
+  content: "\2013 \2003" attr(cite);display: block;text-align: right;font-size: 0.875em;color: #e74c3c;
+}
+
+.blog_details pre 
+{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+	overflow-y: hidden;
+	font-size: 12px;
+	line-height: 20px;
+	background: #efefef;
+	border: 1px solid #777;
+	background: url(lines.png) repeat 0 0;
+	padding: 10px;
+	color: #333;
+}
+
+.event-group-list { padding:10px 0; margin-bottom:5px;}
+.jam-lat { text-align:right; color:#F60; font-size:14px;}
+.title-lat { font-size:20px;font-family: "Poppins","roboto", sans-serif; font-weight:bold;}
+.title-detlat { font-size:26px;font-family: "Poppins","roboto", sans-serif; font-weight:bold;}
+#event p { line-height:20px; font-size:14px; margin-top:3px;}
+
+.jj p { line-height:25px; margin-bottom:30px;}
+
+.jj ol { list-style:decimal; margin-bottom:30px; color: #888888;}
+.jj ul { list-style-type:circle; margin-bottom:30px; color: #888888;}
+.jj ol li { position: relative;
+    padding-left: 0px;
+    line-height: 1.82em !important;}
+.jj ul li { position: relative;
+    padding-left: 0px; margin-left:30px;
+    line-height: 1.82em !important;}
+.jj  img { width:100% !important; height:auto;}		
+
+
+/* batas css galeri mulai */
+
+.posmodal { top:80px;}
+.img-popclas { max-width:500px; height: auto !important;}
+.row-gal-by {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column-gal-by {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column-gal-by img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column-gal-by {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .posmodal { top:90px;}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-gal-by {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .posmodal { top:90px;}
+}
+/* batas galeri selesai */
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 18, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
@@ -110,6 +219,7 @@ border-bottom: 1px solid #a1a1; opacity:0.7}
     padding: 70px 0px;
   }
   .mar-d-10 { margin-right:0px;}
+  .jam-lat { text-align:left;}
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -118,6 +228,7 @@ border-bottom: 1px solid #a1a1; opacity:0.7}
     padding: 70px 0px;
   }
   .mar-d-10 { margin-right:0px;}
+  .jam-lat { text-align:left;}
 }
 
 /* line 33, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
