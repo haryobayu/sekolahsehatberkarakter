@@ -96,6 +96,12 @@ input::placeholder {color:  #CCC !important;}
 text-align:center; padding:15px; margin:5px; border-radius:10px;}
 .bts_kr {  border-bottom: 1px solid #F3F3F3; width:290px; 
 padding-bottom:5px; margin-bottom:5px; font-size:16px;}
+.tgr {height:40px; overflow:hidden !important;}
+.heig-imgt { height:140px !important;object-fit: cover; position:relative;}
+.largvi { position:absolute; top:10px; left:10px; }
+.pad-fm { padding-left:5px; padding-right:5px; margin-bottom:10px;}
+.img-popinfo { width:100%; height:280px !important; object-fit: cover;}
+.pos-linkfull { position:absolute; right:40px; top:19px;}
 
 
 /*reponsive mode */

@@ -164,6 +164,7 @@ border-bottom: 1px solid #a1a1; opacity:0.7}
 .img-event { width:100%; height:350px !important; object-fit: cover;}
 
 .img-popinfo { width:100%; height:280px !important; object-fit: cover;}
+.pos-linkfull { position:absolute; right:40px; top:19px;}
 
 
 /* batas css galeri mulai */
