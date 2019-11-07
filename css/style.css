@@ -240,6 +240,11 @@ margin-right:10px; color:#FFF; width:40px; font-size:20px; height:40px;}
 .konten-vid blockquote q:before {content: "-"; top: 20px; margin-right:10px;} 
 .konten-vid blockquote:before { position: absolute;font-family: 'FontAwesome';top: 0;content:"\f10d";
 font-size: 80px;color: rgba(0,0,0,0.1); }
+
+
+.vl img { width:36%; height:70px !important; object-fit:cover; margin-right:10px;}
+.vl .md-txt { font-size:15px;font-family: "Roboto", sans-serif; line-height:22px; font-weight:bold;}
+
  /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column-gal-by {
